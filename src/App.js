@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import HelloWorld from './HelloWorld';
+import Greeting from './Greeting';
+import Profil from './Profil';
+import Voiture from './Voiture';
+import ListeCourses from './ListeCourses';
 
 function App() {
+  const utilisateur = { nom: 'Emma', photo: '/user.png' };
+
+  const courses1 = ['Pommes', 'Bananes', 'Oranges'];
+  const courses2 = ['Lait', 'Pain', 'Beurre', 'Fromage'];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ fontFamily: 'Arial', padding: '30px', maxWidth: '500px', margin: '0 auto' }}>
+
+      <HelloWorld />
+      <hr />
+
+      <Greeting prenom="Ali" />
+      <hr />
+
+      <Profil utilisateur={utilisateur} taille={150} />
+      <hr />
+
+      <h2>Mes Voitures</h2>
+      <Voiture marque="Audi" modele="Q8" couleur="Rouge" />
+      <Voiture marque="Volkswagen" modele="T Rock" couleur="Blanche" />
+      <Voiture marque="BMW" modele="Serie 3" couleur="Noire" />
+      <hr />
+
+      <h2>Liste de courses 1</h2>
+      <ListeCourses elements={courses1} />
+
+      <h2>Liste de courses 2</h2>
+      <ListeCourses elements={courses2} />
+
     </div>
   );
 }
 
-export default App;
+export default App
