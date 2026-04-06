@@ -6,10 +6,10 @@ import Voiture from './Voiture';
 import ListeCourses from './ListeCourses';
 
 function App() {
-  const utilisateur = { nom: 'Emma', photo: '/user.png' };
+  const utilisateur = { nom: 'EMMANE', photo: '/user.png' };
 
-  const courses1 = ['Pommes', 'Bananes', 'Oranges'];
-  const courses2 = ['Lait', 'Pain', 'Beurre', 'Fromage'];
+  const courses1 = ['ANANAS', 'PECHES', 'FRAISE'];
+  const courses2 = ['MILK', 'CHEESE', 'BUTTER', 'MIEL'];
 
   return (
     <div style={{ fontFamily: 'Arial', padding: '30px', maxWidth: '500px', margin: '0 auto' }}>
@@ -17,7 +17,7 @@ function App() {
       <HelloWorld />
       <hr />
 
-      <Greeting prenom="Ali" />
+      <Greeting prenom="Maria" />
       <hr />
 
       <Profil utilisateur={utilisateur} taille={150} />

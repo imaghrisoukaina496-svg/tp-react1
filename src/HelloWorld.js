@@ -2,9 +2,9 @@
 function HelloWorld() {
   return (
     <div>
-      <h1> Hello World !</h1>
+      <h1> Hallo !</h1>
+      <p> TP-REACT</p>
       <p> Je suis Soukaina Imaghri</p>
-      <p> J'ai 21 ans</p>
     </div>
   );
 }
