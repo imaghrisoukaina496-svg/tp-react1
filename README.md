@@ -36,4 +36,5 @@ Application fonctionnelle affichant :
 - Profil avec photo
 - Liste de voitures
 - Listes de courses dynamiques
-  <img width="565" height="881" alt="image" src="https://github.com/user-attachments/assets/888c9539-599b-4129-90b5-d3129f9b59c4" />
+<img width="558" height="837" alt="image" src="https://github.com/user-attachments/assets/3345065a-028a-4c08-93a7-e886598765ff" />
+
